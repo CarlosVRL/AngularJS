@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body data-ng-app="myApp">
+        <div data-ng-controller="helloWorldCtrl">
+            <div>Hello {{name}}</div>
+            <input data-ng-model="name" />
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controllers.js"></script>
+    </body>
+</html>
